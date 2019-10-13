@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Data Science Blog',
+    author: 'Sridevi PanneerSelvam',
+    description: 'DataScience Learning.',
+    siteUrl: 'https://hopeful-thompson-dc361e.netlify.com/',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
