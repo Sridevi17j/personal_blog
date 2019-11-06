@@ -1,10 +1,9 @@
 ---
-title: Statistics Basics Part 2
+title: Statistics Basics Part 2 (Notes 3)
 date: "2019-11-16T22:12:03.284Z"
 ---
 
-# Data Science - Notes 3
-We use Jargons in this statistics, which differs on domain. There are few listed below.
+We use Jargons in statistics, which differs based on domain. There are few Jargons listed below.
 - Sample
 - Variable
 - Data (Singular)
