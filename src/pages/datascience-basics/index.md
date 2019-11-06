@@ -1,9 +1,9 @@
 ---
-title: DataScience  Basics
+title: DataScience  Basics (Notes1)
 date: "2019-10-14T22:12:03.284Z"
 ---
 
-# Introduction about the blog
+## Introduction about the blog
 Welcome to the world of Data Science. If you are one who is very passionate about Data Science,
 But Looking for some platform where you can start learning from scratch, then you are in right way.
 Yes! I am starting to learn and i will update this blog with all my learnings, so start learning with me!!!!
@@ -13,11 +13,11 @@ Topics to be covered in Notes 1
 - Learning Path of this blog
 - Data Science Specialization
 - Work flow of a Data Scientist
-### 2.Introduction:
+### 1.Data Science Introduction:
 As the world is emerging with Data, everyone wants to play with Data for some useful cause. Getting some usueful information from high volume of Data, has become the trend. This trend named as Data Science.
 Now in the official words "Data Science is a scientific method, process, systems to extract knowledge ,insights from data.This Data can be either structured or unstructured.
 Data Science = Maths + Statistics
-### 1.Learning Path:
+### 2.Learning Path:
 Below is the learning path of this course. 
     1. Statistics
 	   1.a) Basic Statistics
