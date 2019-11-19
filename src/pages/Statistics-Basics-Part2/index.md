@@ -1,6 +1,6 @@
 ---
 title: Statistics Basics Part 2 (Notes 3)
-date: "2019-11-16T22:12:03.284Z"
+date: "2019-10-13T22:12:03.284Z"
 ---
 
 We use Jargons in statistics, which differs based on domain. There are few Jargons listed below.

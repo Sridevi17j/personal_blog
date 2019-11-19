@@ -1,6 +1,6 @@
 ---
 title: Statistics Basics- Part 1 (Notes2)
-date: "2019-10-14T22:12:03.284Z"
+date: "2019-10-12T22:12:03.284Z"
 ---
 
 In Notes1, we covered Introduction and all basic information. From Notes 2, we actually enter into the course.

@@ -1,6 +1,6 @@
 ---
 title: DataScience  Basics (Notes1)
-date: "2019-10-14T22:12:03.284Z"
+date: "2019-10-11T22:12:03.284Z"
 ---
 
 ## Introduction about the blog
