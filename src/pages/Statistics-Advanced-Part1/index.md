@@ -1,5 +1,5 @@
 ---
-title: Statistics Advanced- Part 1 (Notes 5)
+title: Statistics Advanced Part 1
 date: "2019-10-15T22:12:03.284Z"
 ---
 

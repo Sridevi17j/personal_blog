@@ -1,5 +1,5 @@
 ---
-title: Statistics Basics Part 2 (Notes 3)
+title: Statistics Basics Part 2
 date: "2019-10-13T22:12:03.284Z"
 ---
 
