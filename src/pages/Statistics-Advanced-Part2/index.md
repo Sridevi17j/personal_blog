@@ -1,6 +1,6 @@
 ---
 title: Statistics Advanced Part 2
-date: "2019-10-15T22:12:03.284Z"
+date: "2019-10-16T22:12:03.284Z"
 ---
 
 If you are able to recollect below topics by your own, it means we are good to go with advanced topics.

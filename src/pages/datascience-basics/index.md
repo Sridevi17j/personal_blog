@@ -1,5 +1,5 @@
 ---
-title: DataScience  Basics (Notes1)
+title: DataScience  Basics
 date: "2019-10-11T22:12:03.284Z"
 ---
 
