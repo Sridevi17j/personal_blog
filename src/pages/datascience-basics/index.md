@@ -3,57 +3,72 @@ title: DataScience  Basics
 date: "2019-10-11T22:12:03.284Z"
 ---
 
-## Introduction about the blog
-Welcome to the world of Data Science. If you are one who is very passionate about Data Science,
-But Looking for some platform where you can start learning from scratch, then you are in right way.
-Yes! I am starting to learn and i will update this blog with all my learnings, so start learning with me!!!!
+### Introduction about the blog
+Welcome to the world of Data Science. If you are the one who is very passionate about Data Science, But Looking for some platform where you can start learning from scratch, then you are in the right path.
+Yes! I am starting to learn and i will update this blog with all my learnings about Data Science, so start learning with me!!!!
 
-Topics to be covered in Notes 1
-- Data Science- Introduction
-- Learning Path of this blog
-- Data Science Specialization
-- Work flow of a Data Scientist
+There is another reason for writing this blog, that is- whenever i search for Data Science learning, all my searches are ending into a course link which is finally asking to enroll for a course with fee structure. I would like to make this learning free of cost. So stay tuned in this blog for entire Data Science learning.
+
+In this page, we can learn below topics
+- Data Science Introduction
+- Flow of this blog
+- Data Science Applications
+- Data Science Fields
+- Data Science- The entire process 
+- 
 ### 1.Data Science Introduction:
-As the world is emerging with Data, everyone wants to play with Data for some useful cause. Getting some usueful information from high volume of Data, has become the trend. This trend named as Data Science.
+As the world is emerging with Data, everyone wants to play with Data for some useful cause. Getting some usueful information from high volume of Data, has become the trend. This trend later named as Data Science.
 Now in the official words "Data Science is a scientific method, process, systems to extract knowledge ,insights from data.This Data can be either structured or unstructured.
 Data Science = Maths + Statistics
-### 2.Learning Path:
-Below is the learning path of this course. 
-    1. Statistics
-	   1.a) Basic Statistics
-	   1.b) Advanced Statistics
-    2. Analytics
-		2.a) Basic
-		2.b) Advanced
-    3. Machine Learning ( R and Python )
-    4. Visualization Tools ( Tableaue )
-    5. Databases 
 
-### 3.Data Science Specialization :
+### 2.Data Science Applications:
+Below are some of the Data Science Applications. And in Future its going to be everwhere, beyond our imagination.
+- Fraud and Risk Detection.
+- Healthcare.
+- Internet Search.
+- Targeted Advertising.
+- Website Recommendations.
+- Advanced Image Recognition.
+- Speech Recognition.
+- Airline Route Planning.
+
+### 3.Data Science Fields:
 Below are few fields in Data Science
-	1. Speech Analysis
-	2. Text Analysis(Natural Language Processing)
-	3. Image Processing
-	4. Video Processing
-	5. Medicine Simulation
-	6. Material Simulation
+- Image Processing
+- Video Processing
+- Medicine Simulation
+- Material Simulation
+- Speech Analysis
+- Text Analysis(Natural Language Processing)
 
-### 4.Work flow of a Data Scientist:
-Sample work flow of a Data Scientist
-- Understand the Business Problem- A Data Scientist, tries to understand the Business Problem in the right way by why's or interviews, questionaires with client. Understanding the right problem will give the right solution. 
+### 4.Data Science- The entire process
+Below is the work flow of a Data Scientist
+#### Understand the Business Problem or Business Objective
+ The problem or Business Objective should be understood in the right way. To understand the exact problem, a Data Scientist asks more questions(why's),or conduct interviews or make more questionaires with client. Understand the problem right, will solve 50% of the issue. The rest will come under analysis of the problem and prediction of right solution.
 
-- Data Acquisition- Once the business problem is understood correct, the start acquiring the data to solve the business problem. Data can be Webserver logs, DB Data, Online Repositories etc.. Data Scientistis tries extreme to get all relevant data to proceed further.
+#### Data Gathering
+After the problem identifiction or right identification of Business Objective, Data Scientist try the core to get all related records to proceed further. The relevant Data can be DB logs, Online Data entires, or Web logs,structured or unstructured data, any form of relevant data will be gathered for analysis.
 
-- Data Preparation-Data preparation is nothing but cleaning the Data which involves removing inconsistent Data Type, Misspelled Attributes, Missing & Duplicate Values.
+#### Data Preparation
+Data preparation is nothing but cleaning the Data which involves some below steps
+- Remove unwanted Observations
+- Fix Structural Errors
+- Filter Unwanted Outliers
+- Handle Missing & Duplicate Data
 
-- Data Transformation- It Modifies Data using defined Mapping Rule , Tools like Talend and Informatica to form complex transformation to understand the data better. In Simple words Changing the Data from one form to other needed form.
+#### Data Transformation
+Convert Data from one format to another required format is Data Transformation. We have tools like Talend and Informatica to help in this stage. 
 		  
-- Data Analysis- It Defines and Refines  selection of feature variable that will be used in the model development. Deep Analysis of Data is taken place in this section.
+#### Data Analysis 
+Deep Analysis of Data is taken place in this section. In this stage selection of feature variable is defined and refined. Statistics and Analytics help us in these stages to understand the Data better. We can learn statistical techniques in upcoming posts. 
 
-- Data Modeling- Apply Machine Learning(ML) Algorithm like Decision Treee, apply on Data to identify best fit for Business. Trains the Models with Training Data set and Test, Select Best ML Model. ML Prefers python for Modelling the data.
+#### Data Modeling
+In this stage, selection of best fit Machine Learning algorithm is identified and the selected alogrithm is applied on Data to identify whether it is the best suit for Business.
 
-- Visulization and Communication- Create Powerfull reports and Dashboards using Tableaue, Power BI and Qlick View and communicate the customer about how the business problem is going to be solved with the best fit ML Model.
+#### Visulization and Communication 
+In this stage, powerful and dashing reports will be created using Tools like Tableaue and Power BI and Qlick View. This reports are shown to customer to explain them how the Business Problem will be solved with the best fit ML model.
 
-- Deploy and Test and Maintain ML Model- Deploy and Test ML Model and Maintains the Model.
+#### Deploy and Test and Maintain ML Model
+The final stage involvs Deploy and Test ML Model and Maintains the Model.
 
-This is how a business problem is solved using the Data collected using Data Science. By completing this course,we will be knowing all these points in detail which is discussed above. 
+This is how the Business Problem is solved by a Data Scientist. I will be explaining these points in every stages in detail in upcoming blog updates.
