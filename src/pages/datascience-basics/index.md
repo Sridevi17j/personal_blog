@@ -1,6 +1,6 @@
 ---
 title: DataScience  Basics
-date: "2019-10-11T22:12:03.284Z"
+date: "2019-01-11T22:12:03.284Z"
 ---
 
 ### Introduction about the blog
@@ -50,7 +50,7 @@ Below is the work flow of a Data Scientist
 After the problem identifiction or right identification of Business Objective, Data Scientist try the core to get all related records to proceed further. The relevant Data can be DB logs, Online Data entires, or Web logs,structured or unstructured data, any form of relevant data will be gathered for analysis.
 
 #### Data Preparation
-Data preparation is nothing but cleaning the Data which involves some below steps
+Data preparation is nothing but cleaning the Data which involves some below steps. After Data Gathering, we do below steps to prepare the data for further Analysis.
 - Remove unwanted Observations
 - Fix Structural Errors
 - Filter Unwanted Outliers
@@ -71,4 +71,9 @@ In this stage, powerful and dashing reports will be created using Tools like Tab
 #### Deploy and Test and Maintain ML Model
 The final stage involvs Deploy and Test ML Model and Maintains the Model.
 
-This is how the Business Problem is solved by a Data Scientist. I will be explaining these points in every stages in detail in upcoming blog updates.
+This is how the Business Problem is solved by a Data Scientist. Upcoming posts will be explaining all these steps in detail.
+
+## Next post about
+- Statistics- Descriptive and Inferential
+- Mean Median Mode
+- Correlation Covariance, Collinearity
