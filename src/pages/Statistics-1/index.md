@@ -1,6 +1,6 @@
 ---
 title: Statistics - Part 1
-date: "2020-01-13T22:12:03.284Z"
+date: "2020-01-14T22:12:03.284Z"
 ---
 
 In previous page, we covered Introduction and all basic information. From this page we actually enter into the course.Topics to be covered in this page
@@ -26,7 +26,8 @@ Example- Streaming of Data- Twitter Mining
 
 ### Sample
 Subset of population is called as Sample. It is very difficult to study the entire population. So sample has been collected and analysed. The selected sample should reflect the entire population.
-![](./Population and Sample.jpg)
+
+![](./PopulationandSample.png)
 
 There are multiple method of sampling the data. Few are...
 - Systematic Sample
@@ -60,7 +61,9 @@ When we have high volume of data, where mathematical calculation for describing 
 
 ### Difference between Desriptive and Inferential Statistics
 By explaining the difference between descriptive and inferential, we can have a better understanding! Descriptive statistics uses the data to provide descriptions of the population, either through numerical calculations or graphs or tables. Inferential statistics makes inferences and predictions about a population based on a sample of data taken from the population.
+
 ![](./DesInf.png)
+
 ###  Statistics - Fields:
 Statistics has been used everywhere, below are some example areas..
 Healthcare, Education, Business, Insurance, Marketing, Telecom
@@ -86,11 +89,13 @@ Median is simple another name for 50%. Below is the way to calculate Median.
 - Arrange the data in ascending or descending order.
 - Divide data into equal propotion.
 - Take central value.
+
 ![](./Median1.png)
+
 The Median is often used when the distribution of scores is either positively or negatively skewed.It is the center value where half of the data points are lesser and half of the data points are higher.
 
 ### Mode
-Mode is a score that occurs most frequently in a set of data. In Data Science- statistics, Mode is primarily used with nominally scaled data. When the data has labels, example we gave variable called Gender which has two labels Male and Female. This is called as Nominally scaled variable.
+Mode is a score that occurs most frequently in a set of data. In Data Science- statistics, Mode is primarily used with nominally scaled data. When the data has labels, example we have variable called Gender which has two labels Male and Female. This is called as Nominally scaled variable.
 ![](./Mode1.png)
 
 We will see correlation and covariance, collinearity in next post this page is extended more than expected.
