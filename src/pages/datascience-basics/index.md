@@ -1,6 +1,6 @@
 ---
 title: DataScience  Basics
-date: "2019-01-11T22:12:03.284Z"
+date: "2020-01-11T22:12:03.284Z"
 ---
 
 ### Introduction about the blog
@@ -15,13 +15,21 @@ In this page, we can learn below topics
 - Data Science Applications
 - Data Science Fields
 - Data Science- The entire process 
-- 
+
 ### 1.Data Science Introduction:
 As the world is emerging with Data, everyone wants to play with Data for some useful cause. Getting some usueful information from high volume of Data, has become the trend. This trend later named as Data Science.
 Now in the official words "Data Science is a scientific method, process, systems to extract knowledge ,insights from data.This Data can be either structured or unstructured.
 Data Science = Maths + Statistics
 
-### 2.Data Science Applications:
+### 2. Flow of this blog
+Below is the flow of this course.
+- Statistics
+- Analytics
+- Machine Learning (R & Python)
+- Visualization Tool (Tableau)
+- Databases
+
+### 3.Data Science Applications:
 Below are some of the Data Science Applications. And in Future its going to be everwhere, beyond our imagination.
 - Fraud and Risk Detection.
 - Healthcare.
@@ -32,7 +40,7 @@ Below are some of the Data Science Applications. And in Future its going to be e
 - Speech Recognition.
 - Airline Route Planning.
 
-### 3.Data Science Fields:
+### 4.Data Science Fields:
 Below are few fields in Data Science
 - Image Processing
 - Video Processing
@@ -41,7 +49,7 @@ Below are few fields in Data Science
 - Speech Analysis
 - Text Analysis(Natural Language Processing)
 
-### 4.Data Science- The entire process
+### 5.Data Science- The entire process
 Below is the work flow of a Data Scientist
 #### Understand the Business Problem or Business Objective
  The problem or Business Objective should be understood in the right way. To understand the exact problem, a Data Scientist asks more questions(why's),or conduct interviews or make more questionaires with client. Understand the problem right, will solve 50% of the issue. The rest will come under analysis of the problem and prediction of right solution.
