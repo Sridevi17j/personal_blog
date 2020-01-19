@@ -1,6 +1,6 @@
 ---
 title: Statistics - Part 2
-date: "2020-01-14T22:12:03.284Z"
+date: "2020-01-20T22:12:03.284Z"
 ---
 
 In previous page we saw about Mean, Median, Mode. In this page, we are going to see about 
