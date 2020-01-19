@@ -5,7 +5,8 @@ date: "2020-01-20T22:12:03.284Z"
 
 In previous page we saw about Mean, Median, Mode. In this page, we are going to see about 
 - Variance
-- Standard Deviation 
+- Standard Deviation,
+
 and some below statistical measures which is necessary when we do data analysis.
 - Correlation
 - Covariance
@@ -29,8 +30,14 @@ It is a measure of the amount of variation or dispersion of a set of values. SD 
 
 
 ### Covariance
-Covariance is a statistical measure that is used to determine the relationship between the movement of two variables in a data set. Higher this value, more dependent is the relationship. A positive number signifies positive covariance and denotes that there is a direct relationship. 
-Effectively this means that an increase in one variable would also lead to a corresponding increase in the other variable provided other conditions remain constant. On the other hand, a negative number signifies negative covariance which denotes an inverse relationship between the two variables. It can take any value from -∞ to +∞. Though covariance is perfect for defining the type of relationship, it is bad for interpreting its magnitude.
+Covariance is a statistical measure that is used to determine the relationship between the movement of two variables in a data set. Higher this value, more dependent is the relationship. 
+
+A positive number signifies positive covariance and denotes that there is a direct relationship. Effectively this means that an increase in one variable would also lead to a corresponding increase in the other variable provided other conditions remain constant. 
+
+On the other hand, a negative number signifies negative covariance which denotes an inverse relationship between the two variables. 
+
+It can take any value from -∞ to +∞. Though covariance is perfect for defining the type of relationship, it is bad for interpreting its magnitude.
+
 Covariance can not be applied for datasets or variables with different scales. For example, when you draw a connection line between height and distance, height will be in ft and distance will be in km, when you get covariance value 3000, We may not know whether it is strongly related or Medium related.To avoid this, we have correlation which is explained below in detail
 ![](./covariance.png)
        
@@ -41,25 +48,24 @@ On the other hand, correlation of -1 indicates that there is a strong inverse re
 
 ### Difference between covariance and correlation
 ### Covariance
-covariance varies from -infinity to +infinity
-It provides direction of relationship 
-It is dependent on scale of variables
-It shows how much two variables vary together
+- covariance varies from -∞ to +∞.
+- It provides direction of relationship 
+- It is dependent on scale of variables
+- It shows how much two variables vary together
 
 ### Correlation
-correlation varies from -1 to 1
-It provides direction and strength of relationship
-It is independent of scales of variables
-It shows how much two variables are strongly connected.
-
-The Main Difference is correlation explain how strong the relation between variables, whether Medium, Strong, or low. 
+- correlation varies from -1 to 1
+- It provides direction and strength of relationship
+- It is independent of scales of variables
+- It shows how much two variables are strongly connected.
+- The Main Difference is, correlation explain how strong the relation between variables, whether Medium, Strong, or low. 
 
 ![](./correlation1.png)
 
-### Importance of covariance and correlation
+### Importance of covariance and correlation in Data Analysis
 They both, covariance and correlation help in identifying the dependency between variables. Mainly used in banking and finance sectors. To develop any  Model, we need variables, and these two help in identifying the dependency between variables, which helps in reducing variables carrying same or dependent information. 
 
-Say for example if we have ten variables and we send all ten variables  for Model, then Model will become more complex, so to save time, complexity, if we have any redundant variables,or any variables which are highly correlated, then we can remove one, if they two carrying same information.
+Say for example if we have ten variables and we send all ten variables  to build a Model, then Model will become more complex, so to save time, complexity, if we have any redundant variables, or any variables which are highly correlated, then we can remove one. if they two carrying same information.
 
 ### Collinearity
 Collinearity is a condition in which some of the independent variables are highly correlated. 
