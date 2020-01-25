@@ -1,6 +1,6 @@
 ---
 title: Statistics - Part 3
-date: "2020-01-21T22:12:03.284Z"
+date: "2020-01-25T22:12:03.284Z"
 ---
 
 In This page, we will see about some statistical technique like 
