@@ -21,7 +21,8 @@ As we all well grown professionals, I am just giving the link here for R and R S
 link- https://cran.r-project.org/bin/windows/base/
 #### Link for downloading R Studio
 Link- https://rstudio.com/products/rstudio/download/
-- After installing R and R Studio, just open R Studio, which has four parts in the GUI, which is explained below in this picture
+- After installing R and R Studio, just open R Studio, which has four parts in the GUI, which is explained below in this picture.
+
 ![](./R Studio Console.png)
 
 Now Let us move to R Programming!!!
