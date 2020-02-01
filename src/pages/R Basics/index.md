@@ -1,5 +1,5 @@
 ---
-title: Statistics - Part 2
+title: R Programming- Basics1
 date: "2020-02-02T22:12:03.284Z"
 ---
 
