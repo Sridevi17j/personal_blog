@@ -1,6 +1,6 @@
 ---
 title: R Programming- Basics 2
-date: "2020-02-08T22:12:03.284Z"
+date: "2020-02-10T22:12:03.284Z"
 ---
 
 In this page, we are going to see few more basic commands in R. Try to install R and practice commands in the environment which will be more practical. Before we start it is time to remember below points.
