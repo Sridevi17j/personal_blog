@@ -1,5 +1,5 @@
 ---
-title: R Programming- Basics1
+title: R Programming- Basics 1
 date: "2020-02-02T22:12:03.284Z"
 ---
 
@@ -23,7 +23,7 @@ link- https://cran.r-project.org/bin/windows/base/
 Link- https://rstudio.com/products/rstudio/download/
 - After installing R and R Studio, just open R Studio, which has four parts in the GUI, which is explained below in this picture.
 
-![](./R Studio Console.png)
+![](./RStudioConsole.png)
 
 Now Let us move to R Programming!!!
 ### R Commands
