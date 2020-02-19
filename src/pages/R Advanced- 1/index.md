@@ -1,20 +1,20 @@
 ---
 title: R Programming- Advanced 1
-date: "2020-02-19T22:12:03.284Z"
+date: "2020-02-20T22:12:03.284Z"
 ---
 
-I thought of starting Advanced R, but there are more and more basic R Commands are still need to be covered. So we will go through the entire R Basic commands and will start with R Advanced. I have posted screenshot for every single command so that you will catch up with right syntax. Let us start!
+I thought of starting Advanced R, but there are more and more basic R commands , still need to be covered. So we will go through the entire R Basic commands and will start with R Advanced. I have posted screenshot for every single command so that you will catch up with right syntax. Let us start!
 
-What would be the first command as soon we open R Studio..
+What would be the first command as soon as we open R Studio..
 Yes!! It is rm(list=ls()) - Removing all objects stored in RAM.
 Now set current working Directory using setwd command. Now start working on commands...
 
 ### Selecting Rows from Dataset
-We all know mtcars is a preloaded dataset.   
-TempData = mtcars    
-View(TempData)      
-TestData = subset(data, select = c("hp", "drat"))   
-View(TestData)   
+We all know mtcars is a preloaded dataset. We are going to select few columns(variables) from the mtcars dataset. Now Commands below..
+TempData = mtcars //assigning mtcars to object TempData       
+View(TempData)   // Viewing TempData      
+TestData = subset(TempData, select = c("hp", "drat"))  //Selecting particular coulmns(variables) from TempData(mtcars)     
+View(TestData) //Viewing output 
 ### Screenshot for above commands
 ![](./P1.png)
 #### Viewing TempData
@@ -22,7 +22,7 @@ View(TestData)
 #### Viewing TestData( After Extracting two variables)
 ![](./P3.png)
 ### Selecting rows with condition
-TestData1 = TempData[which(TempData$hp == 110),]     
+TestData1 = TempData[which(TempData$hp == 110),]          
 In Above Command, from TempData, we are selecting rows which has hp=110 value. As this is Row level operation we are leaving nothing after comma.
 ### Screesnhot for which command
 ![](./P4.png)
@@ -30,8 +30,8 @@ In Above Command, from TempData, we are selecting rows which has hp=110 value. A
 ![](./P5.png)
 
 ### Command to create Matrix
-TestMatrix = matrix(11:19, byrow = T, nrow =3) // This will arrange 11 to 19 by 3 rows. If we set byrow = F, it will arrange by column.
-We can also mention number of column as ncol.
+TestMatrix = matrix(11:19, byrow = T, nrow =3)           
+This command will arrange 11 to 19 by 3 rows. If we set byrow = F, it will arrange by column. We can also mention number of columns as ncol.
 ### Command And Output Screenshots when byrow = T
 ![](./P6.png)
 ![](./P7.png)
@@ -42,8 +42,8 @@ We can also mention number of column as ncol.
 ![](./P10.png)
 ![](./P11.png)
 ### Transpose Matrix- Command
-TestMatrix = matrix(11:19, byrow = T, nrow =3)    
-View(TestMatrix)    
+TestMatrix = matrix(11:19, byrow = T, nrow =3)         
+View(TestMatrix)         
 t(TestMatrix) // t for transpose
 ### Screenshots for Transpose of a matrix
 ![](./P14.png)
@@ -54,12 +54,11 @@ t(TestMatrix) // t for transpose
 ![](./P18.png)
 
 ### Command to create Vector
-TestVector = c(11, 15, 18, 19)
-
+TestVector = c(11, 15, 18, 19)    
 Just wanted to explain the differnce between vector and matrix as i just browsed and understood, so that you dont need to waste your time on browsing to understand the same. Vector is a list of numbers and it can be either in row or column, whereas Matrix is an array of numbers with rows and columns.
 ### Vector Command and Output
 ![](./P12.png)
 ![](./P13.png)
 
-Let us finish this page with above commands. There are more basic commands, i will update in my next blog post. 
+Let us finish this page with above commands. There are more basic commands, i will update in my next blog post. Stay Tuned!
 
