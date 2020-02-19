@@ -10,10 +10,11 @@ Yes!! It is rm(list=ls()) - Removing all objects stored in RAM.
 Now set current working Directory using setwd command. Now start working on commands...
 
 ### Selecting Rows from Dataset
-TempData = mtcars.
-View(TempData).
-TestData = subset(data, select = c("hp", "drat")).
-View(TestData).
+We all know mtcars is a preloaded dataset.   
+TempData = mtcars    
+View(TempData)      
+TestData = subset(data, select = c("hp", "drat"))   
+View(TestData)   
 ### Screenshot for above commands
 ![](./P1.png)
 #### Viewing TempData
@@ -21,7 +22,7 @@ View(TestData).
 #### Viewing TestData( After Extracting two variables)
 ![](./P3.png)
 ### Selecting rows with condition
-TestData1 = TempData[which(TempData$hp == 110),].
+TestData1 = TempData[which(TempData$hp == 110),]     
 In Above Command, from TempData, we are selecting rows which has hp=110 value. As this is Row level operation we are leaving nothing after comma.
 ### Screesnhot for which command
 ![](./P4.png)
@@ -41,8 +42,8 @@ We can also mention number of column as ncol.
 ![](./P10.png)
 ![](./P11.png)
 ### Transpose Matrix- Command
-TestMatrix = matrix(11:19, byrow = T, nrow =3)
-View(TestMatrix)
+TestMatrix = matrix(11:19, byrow = T, nrow =3)    
+View(TestMatrix)    
 t(TestMatrix) // t for transpose
 ### Screenshots for Transpose of a matrix
 ![](./P14.png)
