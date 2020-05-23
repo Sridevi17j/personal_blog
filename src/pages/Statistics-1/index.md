@@ -21,7 +21,7 @@ The entire raw data taken for analysis is called as population.
 There are two types of population.
 - Finite population (limited amount of data)
 Example- Employees of the company
-- Infinite population (unlimited amoun of data)
+- Infinite population (unlimited amount of data)
 Example- Streaming of Data- Twitter Mining
 
 ### Sample
