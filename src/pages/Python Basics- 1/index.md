@@ -1,0 +1,49 @@
+---
+title: Python- Basics 1
+date: "2020-07-26T22:12:03.284Z"
+---
+
+Python...  
+Just like the real python, it is huge in size(To study and understand). But ofcourse nothing is bigger than thirst of understanding the world of Datascience. Come on! Lets start to learn ..slowly we will deep dive and we will swim around the ocean of DataScience...
+### Introduction
+Python was introduced as a General Purpose language. It was initially used for Frontend, Backend, WebDevelopment. But Now it is mainly used for DataAnalytics due to the library specially built for this Analytics and Visualization.
+### Why Python than R
+Python can handle large amount of Data, Where R becomes slower to handle because it runs on RAM. But python in HardDisk.
+### Download Python
+Link for downloding Python   
+https://www.continuum.io/downloads  
+### Python libraries
+#### Pandas 
+Pandas is a dataframe in python. It is used for structured data operations and manipulations. Also used for DataPreprocessing and Modelling. Helps to have your input in structured way.
+#### SciPy 
+Scientific Python- Built on top of NumPy. It can be used for optimization and Advanced fourier transform.
+#### SymPy
+Used for Symbolic Computations
+#### NumPy 
+Numerical Python-Deals with Numerical Values, Contains basic Linear Algebra function, Fourier Transform, Advanced Random Number Capability, Integration tools with low level languages like c and c++.
+#### Matplotlib
+Designed for Visualization. But only for static images.
+#### Scikit Learn
+Helps to develop ML Models. Built on top of NumPy, SciPy, MatplotLib. It contains ML Algorithm.
+#### Blaze
+Used to access data from different DB.
+#### Scrapy
+Helps to start something from start to end.
+Helps to scrap the social websites from start and dig through it.
+#### Bokeh
+Helps to generate interactive plots.
+#### Seaborn
+Helps to develelop interactive visualization. 
+#### Statsmodels 
+Helps to devlop Statistical Models, and Tests(ANOVA, CHI-Square)
+#### os
+Used for IN/OUT operations and File Transfer operations.
+#### NLTK
+Designed for Text Mining. 
+#### BeautifulSoup
+Used for scraping the websites. This is lower to Scrapy.
+#### Requests
+Used for accessing the web for IN and OUT operations
+
+
+

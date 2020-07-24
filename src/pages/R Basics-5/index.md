@@ -10,13 +10,14 @@ R has many datastructures. It includes
 - Matrix
 - Data Frame
 - Factors
-- Tables
+- Tables    
 Now let us see how to do conversion
 ### Converting Vector to Data Frame
 Sample_Vector = c(7,4,2,9)    
 View(Sample_Vector)   
 DataFrame = as.data.frame(Sample_Vector)      
 View(DataFrame)     
+#### Output for above commands in screenshot  
 ![](./p1.png) 
 ![](./p2.png) 
 ![](./p3.png) 
@@ -27,11 +28,9 @@ str(mc)
 mc$cyl = as.factor(mc$cyl)    
 mc$vs = as.factor(mc$vs)   
 str(mc)     
+#### Output for above commands in screenshot  
 ![](./p4.png) 
 ![](./p5.png)  
-
-#### Output for above commands in screenshot
-
 ### Numeric to Categorical conversion
 mc$mpgcat[mc$mpg >= 10 & mc$mpg <=16] = "Low"    
 mc$mpgcat[mc$mpg >= 16 & mc$mpg <=20] = "Medium"   

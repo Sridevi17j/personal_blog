@@ -7,10 +7,15 @@ Find the next set of R commands on DataFrame. In Last post, we saw, how to creat
 Dataframe is a structure like table with rows and columns, whereas each column contains values of one variable and each row contains one set of values from each column. I will make it simple by explaining the difference between matrix and dataframe.   
 Matrix has rows and columns where as it stores single datatype values,whereas dataframe stores different types of values in a single table. Example it stores numeric, character values in the single table.
 ### Create Data Frame
-TempObj1 = data.frame(ID = c(1,2,3,4), NAME = c("Abi", "Aki", "Ani", Ashi"), HeightinCM = c("100", "120", "130", "120"))
+TempObj1 = data.frame(ID = c(1, 2, 3, 4), NAME = c("Abi", "Aki", "Ani", "Ashi"), HeightinCM = c(100, 120, 130, 120))
 ![](./p1.png) 
 #### Output for Data Frame Creation
 ![](./p2.png)
+### Rename a variable in DataFrame
+Here we rename "HeightinCM" to "HtinCM"  
+names(TempObj1)[2]  =  "HtinCM"  
+#### Output in Screenshot  
+
 ### Adding rows and columns of two data frame
 TempObj2 = data.frame(COUNTRY = c("Australia", "Malaysia", "UK"), LANGUAGE = c("English", "Malay", "English"))       
 TempObj3 = data.frame(COUNTRY = c("India", "Italy", "France"), LANGUAGE = c("Hindi", "Italian", "French"))
