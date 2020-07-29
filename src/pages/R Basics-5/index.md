@@ -1,6 +1,6 @@
 ---
 title: R Programming- Basics 5
-date: "2020-05-25T22:20:03.284Z"
+date: "2020-04-25T22:20:03.284Z"
 ---
 
 Here we go with next set of commands. In this page we will see datatype conversion. As we are going to handle with different types of data and we should also know how to convert from one type to another. Here we go!  
@@ -45,7 +45,7 @@ TempObj2 = as.numeric(TempObj1)
 #### Output for above commands in screenshot 
 ![](./p8.png)   
 
-One more basic R page with leftout R Commands will be updated and then We will move to Advanced R!!!
+With this we will end up Basics R, From next, we will start with Advanced R!..
 
 
 
