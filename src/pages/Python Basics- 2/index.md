@@ -1,5 +1,5 @@
 ---
-title: Python- Basics 2
+title: Python- Part 1
 date: "2020-06-26T22:12:03.284Z"
 ---
 

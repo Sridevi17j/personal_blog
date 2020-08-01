@@ -1,5 +1,5 @@
 ---
-title: Python- Basics 1
+title: Python- Basics
 date: "2020-05-26T22:12:03.284Z"
 ---
 
@@ -14,8 +14,8 @@ Link for downloding Python- https://www.python.org/downloads/
 I installed python for MAC, you can install based on your OS.
 Since i installed python, i installed Jupyter Notebook, which is a web based interactive platform for running python code.
 ### Commands for Jypyter notebook installation
-cd /usr/local/bin  (my installation directory for python) 
-pip install jupyterlab   
+cd /usr/local/bin  (python installation dir in my sys)    
+pip install jupyterlab    
 pip install notebook   
 ### Command to launch Jupyter notebook
 jupyter  notebook   

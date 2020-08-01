@@ -1,5 +1,5 @@
 ---
-title: R Programming- Basics 4
+title: R Programming- 4
 date: "2020-03-14T22:12:03.284Z"
 ---
 
@@ -40,5 +40,5 @@ MergedDataframe = merge(TempObj6, TempObj7, by = "Age")
 #### Output for Merge Operation
 ![](./p6.png)
 
-With this, we complete this page, two more posts will be on R basics. After that we will start with Advanced R. !!!!
+With this, we complete this page. See you all with next set of commands!.
 

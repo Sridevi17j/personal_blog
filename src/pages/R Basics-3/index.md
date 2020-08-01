@@ -1,9 +1,9 @@
 ---
-title: R Programming- Basics 3
+title: R Programming- 3
 date: "2020-02-20T22:12:03.284Z"
 ---
 
-I thought of starting Advanced R, but there are more and more basic R commands , still need to be covered. So we will go through the entire R Basic commands and will start with R Advanced. I have posted screenshot for every single command so that you will catch up with right syntax. Let us start!
+Here is the next set. I have posted screenshot for every single command so that you will catch up with right syntax. Let us start!
 
 What would be the first command as soon as we open R Studio..
 Yes!! It is rm(list=ls()) - Removing all objects stored in RAM.
@@ -60,5 +60,5 @@ Just wanted to explain the differnce between vector and matrix as i just browsed
 ![](./P12.png)
 ![](./P13.png)
 
-Let us finish this page with above commands. There are more basic commands, i will update in my next blog post. Stay Tuned!
+Let us finish this page with above commands. There are more and more commands, i will update in my next blog post. Stay Tuned!
 

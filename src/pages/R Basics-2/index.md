@@ -1,9 +1,9 @@
 ---
-title: R Programming- Basics 2
+title: R Programming- 1
 date: "2020-02-10T22:12:03.284Z"
 ---
 
-In this page, we are going to see few more basic commands in R. Try to install R and practice commands in the environment which will be more practical. Before we start it is time to remember below points.
+In this page, we are going to see R commands. Try to install R and practice commands in the environment which will be more practical. Before we start it is time to remember below points.
 - ctrl+Enter- or Run Button to run the command
 - Output for every command will be displayed in console. (Bottom Left)
 ### R Commands Basics- 2
@@ -69,6 +69,5 @@ The only difference is instead of csv, we put xlsx.
 
 Not able to provide screenshot for reading and writing Excel Data as i am having issues with xls library function. Will fix this and update shortly. Meanwhile you can go through the commands and try to execute in RStudio.
 
-With this we conclude basics of R. Deep dive into R will be up next...
-Keep playing with R!!!!!
+Stay tuned for next set of commands!!!!
 

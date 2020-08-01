@@ -1,5 +1,5 @@
 ---
-title: R Programming- Basics 5
+title: R Programming- 5
 date: "2020-04-25T22:20:03.284Z"
 ---
 
@@ -45,7 +45,7 @@ TempObj2 = as.numeric(TempObj1)
 #### Output for above commands in screenshot 
 ![](./p8.png)   
 
-With this we will end up Basics R, From next, we will start with Advanced R!..
+With this we will end up R, From next, we will start with Python. I will also check out for missed commands in R and update in middle, meanwhile lets start to learn python!!!!
 
 
 
