@@ -1,5 +1,5 @@
 ---
-title: R Programming- Basics 1
+title: R Basics
 date: "2020-02-02T22:12:03.284Z"
 ---
 
