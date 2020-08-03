@@ -9,15 +9,15 @@ import pandas as pd
 import numpy as np  
 import matplotlib as mlt 
 ### Set working Directory
-We have to call inbuilt functions using the libraries. 
-import os  
-os.chdir("/Users/mac/Desktop/new/Python")- Set Working Dir
+We have to call inbuilt functions using the libraries   
+import os   
+os.chdir("/Users/mac/Desktop/new/Python") /Set Working Dr 
 os.getcwd() - Get current working Dir
 ### Screenshot for above commands
 ![](./p1.png)
 Note:- Shift+Enter to run your commands
 When i tried to import pandas library, i got an error " No modules named pandas" Which i fixed by installing pandas under bin, before importing it, and below is the command.    
-pip install pandas
+pip install pandas //Installing pandas 
 ### Using operators- Basics
 ![](./p2.png)
 ### Python Math-Calculations
