@@ -24,8 +24,9 @@ Obj1_excel['cyl'].var() // Variance Calculation
 Obj1_excel['cyl'].std() // Standard Deviation Calculation 
 #### Screenshot for above command
 ![](./p3.png)
-### Adding values of variable(Column)
-Obj1_excel['cyl'].sum() // Adding values
+### Sum function and describe function
+Obj1_excel['cyl'].sum() // Adding values in column sum   
+Obj1_excel['cyl'].describe() // Provide mean, std and other details.. check out the below screenshot.  
 ![](./p4.png)
 
 With this we are ending up here. More python commands are still in line. Stay tuned!!!
