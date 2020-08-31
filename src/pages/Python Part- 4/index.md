@@ -2,7 +2,8 @@
 title: Python- Part 4
 date: "2020-08-14T22:12:03.284Z"
 ---
-This page has few other commands. Check out...   
+Continuing with matrix, list, array, dataframe creation.. 
+Check this out...  
 ### Create Matrix
 matrix_sample= np.matrix('8 5 3; 4 7 2; 9 6 1')   
 ### Output
@@ -37,7 +38,9 @@ dfrme = pd.DataFrame({'EID':[3,4,6],'Gender':["M","M","F"],'Name':["Abi","Aki","
 from ggplot import mtcars    
 dst = mtcars    
 dst_subset = dst[['cyl','mpg']]  
+### Output
+![](./p7.png)
 
-For above command i could not provide screenshot as of now, as i am getting few errors, which i m trying to resolve. Lets move on.. As soon as the issue is solved, this page will be updated later.
+I had issues while running command which had ggplot, i fixed it by installing separately and doing some config changes. Better you install latest conda version in which you may not get this issue.
 
 
