@@ -11,7 +11,7 @@ import matplotlib as mlt
 ### Set working Directory
 We have to call inbuilt functions using the libraries   
 import os   
-os.chdir("/Users/mac/Desktop/new/Python") /Set Working Dr 
+os.chdir("/Users/mac/Desktop/new/Python") /Set Dir   
 os.getcwd() - Get current working Dir
 ### Screenshot for above commands
 ![](./p1.png)

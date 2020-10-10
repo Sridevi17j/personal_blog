@@ -9,7 +9,7 @@ Obj_name.iloc[:3,:2] - Obj_name is the name where we stored our excel sheet.
 #### Screenshot for above command
 In the screenshot first will be the original excel data and the second will be with 3 rows and 2 columns.
 ![](./p1.png)
-I have loaded mtcars dataset(We used in R-if you remember)Since it has more numerical values, it would be helpful for us to run statistical calculations. After loading the cars.xlsx to an object, I just ran a command to check out rows and columns. Check the below. It shows 3 rows and 8 columns   
+I have loaded mtcars dataset(We used in R-if you remember). Since it has more numerical values, it would be helpful for us to run statistical calculations. After loading the cars.xlsx to an object, I just ran a command to check out rows and columns. Check the below. It shows 3 rows and 8 columns   
 ![](./p5.png) 
 ### Unique values in a column and its count,distribution 
 Obj1_excel['cyl'].unique() -Shows unique values  

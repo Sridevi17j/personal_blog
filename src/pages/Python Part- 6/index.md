@@ -5,9 +5,9 @@ date: "2020-09-15T22:12:03.284Z"
 Check below commands. The next set...
 
 ### Merge Dataframes
-import pandas as pd
+import pandas as pd  
 dfrm1 = pd.DataFrame({'id' : [34,22,12,13,11], 'Name' : ['Abi', 'Aki', 'Anu','Aish','Mk' ]})  
-dfrm2 = pd.DataFrame({'id' : [34,22,12], 'Income' : [20000, 30000, 40000]}) 
+dfrm2 = pd.DataFrame({'id' : [34,22,12], 'Income' : [20000, 30000, 40000]})  
 ### Output
 ![](./p1.png)
 ### Joins
@@ -35,23 +35,24 @@ import os
 import pandas  
 os.chdir("/Users/mac/Desktop/new/Python")   
 cars = pd.read_csv("mtcars.csv")   
-range(len(cars))   // checking the lenghth
+range(len(cars))   // checking the length
 ### Output
 We have 0 to 32 rows in the cars object.  
 ![](./p6.png)
 ### Adding new column using loop
 We have columns named gear and carb in cars. Lets create a new variable named gear+carb which will be the sum of carb for every row. 
-     //new column created initially as 0 
+cars['gear+carb'] = 0 //new column created initially as 0 
 cars  //checking the new column 
 ![](./p7.png) 
-for i in range(len(cars)):
-    cars['gear+carb'].loc[i] = cars['gear'].loc[0] + cars['carb'].loc[0]
+
+for i in range(len(cars)):   
+cars['gear+carb'].loc[i] = cars['gear'].loc[0] + cars['carb'].loc[0]  
 
 cars //checking finally
 ### Output
 ![](./p8.png)
 
-With this will end up python.. Lets execute the commands while we working on some projects and see how useful all these. Stay tuned for more important parts of Datascience which will be covered in upcoming posts.
+With this will end up python.. Lets execute the commands while we work on some projects and see how useful all these. Stay tuned for more important parts of Datascience which will be covered in upcoming posts.
 
 
 

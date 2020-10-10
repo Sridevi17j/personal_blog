@@ -16,10 +16,10 @@ dst['NwVar'] = np.log2(dst['cyl'])
 New Variable named 'NwVar' has been created in last column.  
 ![](./p3.png)
 ### Adding rows of data frame
-import pandas as pd
+import pandas as pd  
 df1 = pd.DataFrame({'a' : [1,2,3,4], 'b' : [4,5,6,7]})   
 df2 = pd.DataFrame({'a' : [7,8,9,2], 'b' : [3,7,8,9]})   
-df3 = df1.append(df2)  
+df3 = df1.append(df2)    
 ### Output
 ![](./p4.png)
 ![](./p5.png)
