@@ -1,6 +1,6 @@
 ---
 title: Missing Value Analysis
-date: "2020-11-15T22:12:03.284Z"
+date: "2020-12-15T22:12:03.284Z"
 ---
 
 When we get the dataset for analysing, and we see some values missing in the column, we either drop the column or fill up with some values in the missing fields.

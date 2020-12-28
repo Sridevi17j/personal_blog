@@ -1,6 +1,6 @@
 ---
 title: Missing Value Analysis
-date: "2020-12-15T22:12:03.284Z"
+date: "2020-12-25T22:12:03.284Z"
 ---
 
 This page is going to be full of R commands on topic Missing Value Analysis. 

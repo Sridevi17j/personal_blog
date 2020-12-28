@@ -1,6 +1,6 @@
 ---
 title: Data Preprocessing
-date: "2020-12-15T22:12:03.284Z"
+date: "2020-11-30T22:12:03.284Z"
 ---
 We saw indispensable commands of R and Python for DataScience. Ofcourse what we saw is just a Wave and the Ocean to be crossed is still left out. But let us cross wave by wave, which will undoubtedly make us cross the ocean.
 
