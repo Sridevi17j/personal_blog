@@ -39,7 +39,7 @@ mc$mpgcat[mc$mpg >20] = "High"
 ![](./p6.png) 
 ![](./p7.png)  
 ### Categorical to Numeric Conversion
-TempObj = c(rep("Medium", 30), rep("poor", 30), rep("Rich", 40)) 
+TempObj = c(rep("Medium", 30), rep("poor", 30), rep("Rich", 40))       
 TempObj1 = factor(TempObj, labels = (1:length(levels(factor(TempObj)))))   
 TempObj2 = as.numeric(TempObj1)     
 #### Output for above commands in screenshot 
