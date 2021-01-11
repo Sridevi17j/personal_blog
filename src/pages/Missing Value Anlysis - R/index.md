@@ -56,22 +56,32 @@ Below are three methods of missing value analysis.
 Now, take one value and remove it manually and impute all three methods and identify which method value gets closer to actual value and fix the method for analysis. 
 
 Now I am checking "YearBuilt" variable, 81th row and 16th column.  and the answer is below.  
-![](./p10.png) 
+![](./p11.png) 
 
 Now i am manually making it as NA and going to compute all three methods
-![](./p11.png) 
+![](./p12.png) 
 
 
 ##Mean Method
 T1$YearBuilt[is.na(T1$YearBuilt)] = mean(T1$YearBuilt, na.rm = T)  
-![](./p12.png) 
+![](./p13.png) 
  
 Refresh the data before proceeding to next method.
 ##Median Method
 T1$YearBuilt[is.na(T1$YearBuilt)] = median(T1$YearBuilt, na.rm = T)  
-![](./p13.png) 
+![](./p14.png) 
 ##KNN  Imputation
 marketing_train = knnImputation(marketing_train, k = 5)
 sum(is.na(marketing_train))
-![](./p14.png) 
+![](./p15.png) 
 
+Now the actual value of 81st row and 16th column, one of the value of yearbuilt variable  
+Actual Value = 1890  
+We made this value NA and calculated below values  
+Using Mean the value is  = 1964  
+Using Median the value is = 1970  
+Using KNN the value is = 1897  
+
+And the nearest value is 1897, so we go with KNN method for calculating all missing values.  
+
+Hope this post helps! will update you all with next post soon!!!
