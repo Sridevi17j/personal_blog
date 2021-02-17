@@ -1,5 +1,5 @@
 ---
-title: Missing Value Analysis
+title: Missing Value Analysis in R
 date: "2020-12-25T22:12:03.284Z"
 ---
 
@@ -25,14 +25,17 @@ names(T1)
 ## Explore the data
 str(T1)  
 ![](./p3.png)
-##Create Dataframe with missing percentage
-missing_val = data.frame(apply(T1, 2, function(x) {sum(is.na(x))}))  
+##Create Dataframe with total number of missing values
+missing_val = data.frame(apply(T1, 2, function(x) {sum(is.na(x))}))    
+We calculate total number of missing values for every column  
+Here we use apply function to avoid loop   
+Inside avoid, we pass the arguments like T1, and 2( since we do column level operation), and we create our own function named function, which calculates the number of missing values. 
 ![](./p4.png)
 ## Viewing the dataframe created
 View(missing_val)
 ![](./p5.png)
 ##Convert row names into column
-missing_val$columns = row.names(missing_val)//Adding row names into a separate column
+missing_val$columns = row.names(missing_val)//Adding row names into a separate column   
 row.names(missing_val) = NULL   // Null row.names.
 ![](./p6.png) 
 ![](./p7.png)
@@ -50,7 +53,7 @@ View(missing_val)
 missing_val = missing_val[,c(2,1)]
 ![](./p10.png)
 ## write the output results back into the disk
-write.csv(missing_val, “Missing_perc.csv”,  row.names = F)
+write.csv(missing_val, “Missing_perc.csv”,  row.names = F)  
 
 Below are three methods of missing value analysis.
 Now, take one value and remove it manually and impute all three methods and identify which method value gets closer to actual value and fix the method for analysis. 
@@ -71,17 +74,18 @@ Refresh the data before proceeding to next method.
 T1$YearBuilt[is.na(T1$YearBuilt)] = median(T1$YearBuilt, na.rm = T)  
 ![](./p14.png) 
 ##KNN  Imputation
-marketing_train = knnImputation(marketing_train, k = 5)
-sum(is.na(marketing_train))
+T1 = knnImputation(T1, k = 5)   
+If you get an error, couldnot find Knn function please install library "DMwR"    
+library("DMwR")    
 ![](./p15.png) 
 
-Now the actual value of 81st row and 16th column, one of the value of yearbuilt variable  
-Actual Value = 1890  
-We made this value NA and calculated below values  
-Using Mean the value is  = 1964  
-Using Median the value is = 1970  
-Using KNN the value is = 1897  
+Now the actual value of 81st row and 16th column of yearbuilt variable  
+Actual Value = 1890    
+We made this value NA and calculated below values    
+Using Mean the value is  = 1964    
+Using Median the value is = 1970    
+Using KNN the value is = 1897    
 
 And the nearest value is 1897, so we go with KNN method for calculating all missing values.  
-
+  
 Hope this post helps! will update you all with next post soon!!!
