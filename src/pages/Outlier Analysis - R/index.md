@@ -25,7 +25,7 @@ view(numeric_index)
 view(numeric_data)     
 cnames = colnames(numeric_data)    
 ![](./p4.png)   ![](./p5.png)
-![](./p6.png)    )
+![](./p6.png)    
 for (i in 1:length(cnames))  
 {   
   assign(paste0("gn",i), ggplot(aes_string(y = (cnames[i]), x = "responded"), data = subset(T1))+
@@ -51,6 +51,6 @@ Stay Tuned for
 - Feature Scaling
 - Sampling Techniques
   
-And we still have python implementation of all these starts from Missing Value to Sampling Techniques!!.
+And we still have python implementation of all these starts from Missing Value Analysis to Sampling Techniques!!.
 
-sssss!!!! Wait!.. And the real rollercoaster ride starts hereafter. Yes.. Machine Learning!!! Much awaited portion!!!.. stay tuned to learn :) 
+sssss!!!! Wait!.. And the real Roller coaster ride starts hereafter. Yes.. Machine Learning!!! Much awaited portion!!!.. stay tuned to learn :) 
