@@ -1,5 +1,5 @@
 ---
-title: Missing Value Analysis in R
+title: Missing Value Analysis - R
 date: "2020-12-25T22:12:03.284Z"
 ---
 
@@ -29,7 +29,7 @@ str(T1)
 missing_val = data.frame(apply(T1, 2, function(x) {sum(is.na(x))}))    
 We calculate total number of missing values for every column  
 Here we use apply function to avoid loop   
-Inside avoid, we pass the arguments like T1, and 2( since we do column level operation), and we create our own function named function, which calculates the number of missing values. 
+Inside apply, we pass the arguments like T1, and 2( since we do column level operation), and we create our own function named function, which calculates the number of missing values. 
 ![](./p4.png)
 ## Viewing the dataframe created
 View(missing_val)

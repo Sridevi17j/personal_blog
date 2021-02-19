@@ -21,43 +21,36 @@ The original csv file and the file after changing strings to factor numeric is g
 ## Extracting only numeric variables  
 numeric_index = sapply(T1, is.numeric)   
 numeric_data = T1[,numeric_index]   
-view(numeric_index)
-view(numeric_data)
-cnames = colnames(numeric_data)  
-
+view(numeric_index)     
+view(numeric_data)     
+cnames = colnames(numeric_data)    
+![](./p4.png)   ![](./p5.png)
+![](./p6.png)    )
 for (i in 1:length(cnames))  
 {   
   assign(paste0("gn",i), ggplot(aes_string(y = (cnames[i]), x = "responded"), data = subset(T1))+
            stat_boxplot(geom = "errorbar", width = 0.5)+geom_boxplot(outlier.colour="red", fill = "grey", outlier.shape=18, outlier.size=1, notch=FALSE) + theme(legend.position="bottom")+labs(y=cnames[i], x="responded")+ggtitle(paste("Box plot of responded for", cnames[i])))  
   
 }   
+![](./p7.png)
 
+** Note ** 
+If you get an error, could not find function ggplot, please do execute below commands.  
+install.packages("ggplot2")  
+library("ggplot2")  
+After executing above commands, run the code.
 ## Plotting plots together
-gridExtra::grid.arrange(gn1,gn5,gn2,ncol=3)    
-gridExtra::grid.arrange(gn6,gn7,ncol=2)   
-gridExtra::grid.arrange(gn8,gn9,ncol=2)   
+gridExtra::grid.arrange(gn1,ncol=1)    
+Boxplot will look like below  
+![](./p8.png)  
 
-## Remove Outliers Using Boxplot   
-df = marketing_train    
-val = marketing_train$previous[marketing_train$previous %in% boxplot.stats(marketing_train$previous)$out]  
-marketing_train = marketing_train[which(!marketing_train$previous %in% val),]    
+With this we will end up this. The Detailed outlier analysis will be updated later. 
 
-##Loop to remove from all variables
-for (i in cnames)  
-{  
-    print(i)  
-    val = marketing_train[,i][marketing_train[,i] %in%   boxplot.stats(marketing_train[,i] %in% val),]  
- 
-}  
+Stay Tuned for 
+- Feature Selection
+- Feature Scaling
+- Sampling Techniques
+  
+And we still have python implementation of all these starts from Missing Value to Sampling Techniques!!.
 
-## Replace all outlier with NA
-## Create NA on CustAge
-for(i in cnames)   
-{  
-val = marketing_train[,i][marketing_train[,i] %in%   boxplot.stats(marketing_train[,i])$out]  
-print(length(val))  
-marketing[,i][marketing_train[,i] %in% val] = NA  
-}  
-
-marketing_train = knnimputation(marketing_train, k =3)  
-
+sssss!!!! Wait!.. And the real rollercoaster ride starts hereafter. Yes.. Machine Learning!!! Much awaited portion!!!.. stay tuned to learn :) 
