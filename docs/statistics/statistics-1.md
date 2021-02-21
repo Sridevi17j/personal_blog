@@ -20,7 +20,7 @@ Example- Streaming of Data- Twitter Mining
 ### Sample
 Subset of population is called as Sample. It is very difficult to study the entire population. So sample has been collected and analysed. The selected sample should reflect the entire population.
 
-![](/assets/images/statistics/population.png)
+![population](/assets/images/statistics/population.png)
 
 There are multiple method of sampling the data. Few are...
 - Systematic Sample
@@ -55,7 +55,7 @@ When we have high volume of data, where mathematical calculation for describing 
 ### Difference between Desriptive and Inferential Statistics
 By explaining the difference between descriptive and inferential, we can have a better understanding! Descriptive statistics uses the data to provide descriptions of the population, either through numerical calculations or graphs or tables. Inferential statistics makes inferences and predictions about a population based on a sample of data taken from the population.
 
-![](/assets/images/statistics/DesInf.png)
+![DesInf](/assets/images/statistics/DesInf.png)
 
 ###  Statistics - Fields:
 Statistics has been used everywhere, below are some example areas..
@@ -72,8 +72,8 @@ Below are few numeric Techniques, we use in Data Analysing.
 ### Mean
 It is used to measure the center of the numerical data set.
 We use Mean when the data has regular interval or ratio scaled  and the data are not skewed. 
-![](/assets/images/statistics/Mean2.png)
-![](/assets/images/statistics/Mean1.png)
+![Mean2](/assets/images/statistics/Mean2.png)
+![Mean1](/assets/images/statistics/Mean1.png)
 Skewed data is nothing but,when we have 100 number of datapoints in which 90 data points are below 40 (1-40) and 10 datapoints are above 80 (80-100). If you calculate mean, for this dataset we will get between 50-60 where there are no datapoints are between 50-60. we can not get accurate central tendency for this dataset, This data is negatively skewed, because mean comes between 50-60 but most of the data points are below 40. So...
 In this case we go for Median.
 
@@ -83,13 +83,13 @@ Median is simple another name for 50%. Below is the way to calculate Median.
 - Divide data into equal propotion.
 - Take central value.
 
-![](/assets/images/statistics/Median1.png)
+![Median1](/assets/images/statistics/Median1.png)
 
 The Median is often used when the distribution of scores is either positively or negatively skewed.It is the center value where half of the data points are lesser and half of the data points are higher.
 
 ### Mode
 Mode is a score that occurs most frequently in a set of data. In Data Science- statistics, Mode is primarily used with nominally scaled data. When the data has labels, example we have variable called Gender which has two labels Male and Female. This is called as Nominally scaled variable.
-![](/assets/images/statistics/Mode1.png)
+![Mode1](/assets/images/statistics/Mode1.png)
 
 We will see correlation and covariance, collinearity in next post this page is extended more than expected.
 
