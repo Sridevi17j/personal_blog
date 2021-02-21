@@ -3,7 +3,7 @@ layout: default
 title: Statistics
 nav_order: 3
 has_children: true
-permalink: /docs/ui-components
+permalink: /docs/statistics
 ---
 
 In previous page, we covered Introduction and all basic information. From this page we actually enter into the course.Topics to be covered in this page
