@@ -4,6 +4,8 @@ title: DataScience Basics
 nav_order: 2
 ---
 
+# DataScience Basics
+
 In this page, we can learn below topics
 - Data Science Introduction
 - Flow of this blog
