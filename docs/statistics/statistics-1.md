@@ -20,7 +20,7 @@ Example- Streaming of Data- Twitter Mining
 ### Sample
 Subset of population is called as Sample. It is very difficult to study the entire population. So sample has been collected and analysed. The selected sample should reflect the entire population.
 
-![population](/assets/images/statistics/population.png)
+![population](/assets/images/statistics/population.jpg)
 
 There are multiple method of sampling the data. Few are...
 - Systematic Sample
