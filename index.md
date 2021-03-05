@@ -28,4 +28,4 @@ There is another reason for writing this blog, that is- whenever i search for Da
 
 I am Sridevi, Currently learning DataScience. Having experience in the Infrastructure Domain. Started this Datascience journey out of my curiosity, to know what is actually there!!!. Now completely obssessed with this!!. DataScience is not just a word. It is the future...
 
-[My LinkedIn Profile](www.linkedin.com/in/sridevi-panneerselvam)
+[My LinkedIn Profile](https://www.linkedin.com/in/sridevi-panneerselvam/)
