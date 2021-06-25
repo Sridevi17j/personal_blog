@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Missing Value Analysis
-parent: Data Pre-processing
 nav_order: 1
 has_children: true
+parent: Data Pre-processing
 permalink: /docs/DP/missing-value-analysis
 ---
 
