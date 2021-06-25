@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Feature Selection Numerical - Introduction
+title: Feature Selection Numerical Values - Introduction
 parent: Data Pre-processing
 nav_order: 5
 ---
