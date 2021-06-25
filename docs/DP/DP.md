@@ -3,7 +3,7 @@ layout: default
 title: Data Pre-processing
 nav_order: 6
 has_children: true
-permalink: /docs/Python
+permalink: /docs/DP
 ---
 
 We saw indispensable commands of R and Python for DataScience. Ofcourse what we saw is just a Wave and the Ocean to be crossed is still left out. But let us cross wave by wave, which will undoubtedly make us cross the ocean.
