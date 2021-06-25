@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Missing Value Analysis - Introduction
+title: Introduction
 parent: Missing Value Analysis
 nav_order: 1
 ---
