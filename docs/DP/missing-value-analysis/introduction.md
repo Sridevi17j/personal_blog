@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-parent: Data Pre-processing
+parent: Missing Value Analysis
 nav_order: 2
 ---
 
