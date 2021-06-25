@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Introduction
-parent: Data Pre-processing/Missing Value Analysis
+parent: Missing Value Analysis
 nav_order: 1
+permalink: /docs/DP/missing-value-analysis
 ---
 
 The Dataset that we have collected for analysis, may or may not have missing values, which means the column in the dataset may or may not have all the values. If the  particular variable/column has missing values more than 35% we need to drop that column itself.If less than 35% please proceed with filling up missing values. 
