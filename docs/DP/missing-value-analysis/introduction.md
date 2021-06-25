@@ -2,7 +2,7 @@
 layout: default
 title: Missing Value Analysis - Introduction
 parent: Data Pre-processing
-nav_order: 2
+nav_order: 3
 permalink: /docs/DP/missing-value-analysis
 ---
 
