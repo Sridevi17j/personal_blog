@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction
-parent: DP
+parent: Data Pre-processing
 nav_order: 2
 ---
 
