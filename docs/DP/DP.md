@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Pre-processing
-nav_order: 6
+nav_order: 1
 has_children: true
 permalink: /docs/DP
 ---
