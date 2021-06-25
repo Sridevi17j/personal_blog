@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Missing Value Analysis - Introduction
-parent: Missing Value Analysis
+parent: Data Pre-processing
 nav_order: 1
 ---
 
