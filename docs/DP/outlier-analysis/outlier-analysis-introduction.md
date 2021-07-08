@@ -7,7 +7,7 @@ nav_order: 3
 
 It is also part of Data Preprocessing. Outlier is an object that deviates significantly from rest of the objects which causes major change in the imputations or calculation. The analysis of Outlier Data is knowns as Outlier Analysis.   
 
-Common Causes of Outlier
+## Common Causes of Outlier
 - Data Entry Errors
 - Measurement Errors
 - Experimental Errors
