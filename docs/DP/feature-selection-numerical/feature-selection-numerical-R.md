@@ -8,9 +8,9 @@ nav_order: 6
 Here we are going to see the feature selection for numerical values with R implementation.  
 - For numerical values - We apply correlation analysis 
  ## Correlation Analysis - R Implementation
-install.packages("corrplot")  // Install respective pkg
+install.packages("corrplot")  // Install respective pkg 
 A = cor(mtcars)  // cor function to calculate correlation 
-View(A)
+View(A)  
 ![](/assets/images/DP/feature-selection-numerical-R/p4.png)
 ![](/assets/images/DP/feature-selection-numerical-R/p5.png)
 ## Methods for plotting corr graph

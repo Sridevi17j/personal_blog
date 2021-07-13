@@ -9,13 +9,13 @@ Here we see the significant part of Data Preprocessing. It is Feature Selection.
 It is because, failing in this part will lead to the entire failure,.. Now let us see what it is.  
 It is the process, where we automatically or manually select variables/features which contribute in predicting target variable or output. Basically selecting features which go as input of ML Model. Selection of irrelevant variables will retrench the accuracy of the Model.  
 
-##Different methods of feature selection
+## Different methods of feature selection
 - Correlation Analysis
 - Chi Square Test  
 Correlation Analysis is used for numerical data.   
 Chi Square Test is used for categorical data.  
   
-##Correlation Analysis
+## Correlation Analysis
 - It is applied only on numerical data. 
 - It ranges from -1 to 1 and represented by r.
 - It tells the relation between two variables, whether it is positively correlated or negatively correlated.  
