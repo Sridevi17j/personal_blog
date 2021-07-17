@@ -1,0 +1,16 @@
+---
+layout: default
+title: Decision Tree-Classification-R
+parent: Machine Learning
+nav_order: 4
+---
+
+In this post we are going to see, Decision Tree - Regression  
+R Implementation.   
+rm(list=ls())  
+setwd()  
+library(rpart)  
+library(mass)  
+Here I am loading Covid Data for analysis as we are going to  
+predict 
+
