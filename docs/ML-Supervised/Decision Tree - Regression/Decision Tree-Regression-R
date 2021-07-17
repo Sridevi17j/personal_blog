@@ -11,6 +11,7 @@ rm(list=ls())
 setwd()  
 library(rpart)  
 library(mass)  
-Here I am loading Covid Data for analysis as we are going to  
-predict 
+Here I am loading Covid Data for Regression analysis as we are going to  
+predict continuous value.   
+
 
