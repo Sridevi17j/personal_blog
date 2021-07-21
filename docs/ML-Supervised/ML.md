@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Machine Learning
+title: Machine Learning - Supervised
 nav_order: 7
 has_children: true
-permalink: /docs/ML
+permalink: /docs/ML-Supervised
 ---
 
 Much Awaited Machine Learning starts here! Let us see basics in this page.. Page is bit therotical, but dont miss out as base is important!!! 

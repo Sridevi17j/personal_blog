@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Decision Tree 
-parent: Machine Learning
+parent: Machine Learning - Supervised
 nav_order: 2
 ---
 Decision Tree(DT) comes under Supervised Learning Model. It predicts either class or value based on past or historical data. DT can be used for classification and regression. Tree structure which has branches and nodes. 

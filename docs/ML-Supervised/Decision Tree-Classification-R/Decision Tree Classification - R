@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Decision Tree Classification - R
-parent: Machine Learning
+parent: Machine Learning - Supervised
 nav_order: 3
 ---
 Here we are going to work with Banking Data. 

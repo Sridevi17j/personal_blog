@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Machine Learning Basics
-parent: Machine Learning
+parent: Machine Learning - Supervised
 nav_order: 1
 ---
 
