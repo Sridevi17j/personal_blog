@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Decision Tree-Classification-R
+title: Decision Tree - Regression - R
 parent: Machine Learning - Supervised
 nav_order: 4
 ---
