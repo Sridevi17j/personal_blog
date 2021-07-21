@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Decision Tree Classification - R
+title: Decision Tree 
 parent: Machine Learning - Supervised
 nav_order: 3
 ---
+
 Here we are going to work with Banking Data. 
 Here the Target variable is "loan". Please look at the data.  
 
@@ -14,11 +15,11 @@ T1 = read.csv("bank.csv")
 View(T1)   
 missingval = data.frame(apply(T1,2,function(x){sum(is.na(x))}))    
 
-I just checked whether any missingvalues present in the dataset.
+I just checked whether any missing values present in the dataset.
 Since it has no missing values, proceeding further. Also changed 
 categorical variables to levels. Example for loan variable,
 we had values yes or no. Now its changed to 1 or 2. Screenshots
-of code and its ouput is given below.  
+of code and its output is given below.  
 
 ![](/assets/images/ML/DT/CL/p1.png)
 ![](/assets/images/ML/DT/CL/p2.png)  
@@ -35,8 +36,8 @@ set.seed(1234)
 train.index = createDataPartition(T1$loan, p = 0.8, list = FALSE)   
 train = T1[train.index,]  
 test = T1[-train.index,]  
- In Above commands, we divide the data in train and test.  
- Where train data contains 80% of data and test contains the remaining.  
+In Above commands, we divide the data in train and test.  
+Where train data contains 80% of data and test contains the remaining.  
 We are going to build ML model and test the model in the test data.  
 See below screenshots...
 
@@ -44,8 +45,8 @@ See below screenshots...
 ![](/assets/images/ML/DT/CL/p5.png) 
 ![](/assets/images/ML/DT/CL/p6.png) 
 
- And here below , the Model is built and plotted. 
- Output of Model and plot is given below the code.
+And here below , the Model is built and plotted. 
+Output of Model and plot is given below the code.
 library(C50) 
 T2 = as.data.frame(T1)  
 Model = C5.0(x= T2[,-8], y= T2$loan)  
@@ -83,15 +84,4 @@ Here we interpret.
 
 I hope this is clear, It will be most understood when you 
 have ur hands in R!!..  Next would be DT Regression-R..
-
-
-
-
-
-
-
-
-
-
-
 
